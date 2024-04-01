@@ -1,3 +1,4 @@
+import "./style.css";
 import BgImage from "../../assets/bg-map.jpg";
 import Icon1 from "../../assets/HIBI.png";
 import Icon2 from "../../assets/NACIONALNI PARK.png";
@@ -6,57 +7,27 @@ import { PulsAnimation } from "../animations/puls";
 
 export const Home = () => {
   return (
-    <div
-      style={{
-        display: "flex",
-        height: "100vh",
-        position: "relative",
-      }}
-    >
-      <img src={BgImage} alt="img" style={{ width: "100%", height: "100%" }} />
+    <div className="container">
+      <img src={BgImage} alt="img" className="bg-image " />
 
-      <span
-        className="icon1"
-        style={{
-          position: "absolute",
-          top: "50%",
-          left: "50%",
-          transform: "translate(50%, -50%)",
-        }}
-      >
+      <span className="icon1">
         <a href="https://google.com/" target="_blank" rel="noreferrer">
           <PulsAnimation>
-            <img src={Icon1} alt="Icon1" style={{ width: "100px" }} />
+            <img src={Icon1} alt="Icon1" className="img-icon1" />
           </PulsAnimation>
         </a>
       </span>
-      <span
-        className="icon2"
-        style={{
-          position: "absolute",
-          top: "50%",
-          left: "27%",
-          transform: "translate(50%, -50%)",
-        }}
-      >
+      <span className="icon2">
         <a href="https://google.com/" target="_blank" rel="noreferrer">
           <PulsAnimation>
-            <img src={Icon2} alt="img" style={{ width: "100px" }} />
+            <img src={Icon2} alt="img" className="img-icon2" />
           </PulsAnimation>
         </a>
       </span>
-      <span
-        className="icon3"
-        style={{
-          position: "absolute",
-          bottom: "5%",
-          left: "40%",
-          transform: "translate(50%, -50%)",
-        }}
-      >
+      <span className="icon3">
         <a href="https://google.com/" target="_blank" rel="noreferrer">
           <PulsAnimation>
-            <img src={Icon3} alt="img" style={{ width: "100px" }} />
+            <img src={Icon3} alt="img" className="img-icon3" />
           </PulsAnimation>
         </a>
       </span>

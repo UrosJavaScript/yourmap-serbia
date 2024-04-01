@@ -6,9 +6,34 @@ const App = () => {
   const [loader, setLoader] = useState(true);
 
   useEffect(() => {
-    setTimeout(() => {
-      setLoader(false);
-    }, 5000);
+    const handleOrientationChange = () => {
+      // Proverite trenutnu orijentaciju ekrana
+      if (window.matchMedia("(orientation: portrait)").matches) {
+        // Ako je orijentacija portretna, postavite loader na false
+        setLoader(false);
+      }
+    };
+
+    // Provjerite širinu ekrana
+    if (window.innerWidth > 768) {
+      setTimeout(() => {
+        setLoader(false);
+      }, 3000);
+    } else {
+      // Dodajte event listener za promjenu orijentacije ekrana
+      window.addEventListener("orientationchange", handleOrientationChange);
+
+      // Uklonite event listener kada se komponenta unmountuje
+      return () => {
+        setTimeout(() => {
+          alert("Ukljuci rotaciju telefona!");
+        }, 1000);
+        window.removeEventListener(
+          "orientationchange",
+          handleOrientationChange
+        );
+      };
+    }
   }, []);
 
   return (
