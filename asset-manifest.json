@@ -1,17 +1,16 @@
 {
   "files": {
-    "main.css": "/yourmap-serbia/static/css/main.8348a6e2.css",
-    "main.js": "/yourmap-serbia/static/js/main.a2a7d03b.js",
-    "static/media/bg-map.jpg": "/yourmap-serbia/static/media/bg-map.ec97f5fb79c82353920a.jpg",
-    "static/media/NACIONALNI PARK.png": "/yourmap-serbia/static/media/NACIONALNI PARK.7de6dab1fa725da4aed7.png",
-    "static/media/HIBI.png": "/yourmap-serbia/static/media/HIBI.c60ab8a9d1f6fed85301.png",
-    "static/media/SALAS.png": "/yourmap-serbia/static/media/SALAS.9ebf99689efc6093b9a3.png",
+    "main.css": "/yourmap-serbia/static/css/main.52cdac12.css",
+    "main.js": "/yourmap-serbia/static/js/main.585e4139.js",
+    "static/media/bg-map.jpg": "/yourmap-serbia/static/media/bg-map.cba399362bd24f2bdb8b.jpg",
+    "static/media/logo.png": "/yourmap-serbia/static/media/logo.d02fefdafadc0f9a3b99.png",
+    "static/media/SALAS.png": "/yourmap-serbia/static/media/SALAS.46a3b28a2f96f2118166.png",
     "index.html": "/yourmap-serbia/index.html",
-    "main.8348a6e2.css.map": "/yourmap-serbia/static/css/main.8348a6e2.css.map",
-    "main.a2a7d03b.js.map": "/yourmap-serbia/static/js/main.a2a7d03b.js.map"
+    "main.52cdac12.css.map": "/yourmap-serbia/static/css/main.52cdac12.css.map",
+    "main.585e4139.js.map": "/yourmap-serbia/static/js/main.585e4139.js.map"
   },
   "entrypoints": [
-    "static/css/main.8348a6e2.css",
-    "static/js/main.a2a7d03b.js"
+    "static/css/main.52cdac12.css",
+    "static/js/main.585e4139.js"
   ]
 }
