@@ -12,6 +12,9 @@ const App = () => {
         setLoader(false);
       }, 3000);
     } else {
+      setTimeout(() => {
+        alert("Ukljuci rotaciju telefona!");
+      }, 1000);
       const handleOrientationChange = () => {
         // Proverite trenutnu orijentaciju ekrana
         if (window.matchMedia("(orientation: portrait)").matches) {
@@ -27,9 +30,6 @@ const App = () => {
 
       // Uklonite event listener kada se komponenta unmountuje
       return () => {
-        setTimeout(() => {
-          alert("Ukljuci rotaciju telefona!");
-        }, 1000);
         window.removeEventListener(
           "orientationchange",
           handleOrientationChange
