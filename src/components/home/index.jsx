@@ -8,7 +8,43 @@ import { PulsAnimation } from "../animations/puls";
 export const Home = () => {
   return (
     <div className="container">
-      <img src={BgImage} alt="img" className="bg-image " />
+      <div className="wrapper">
+        {/* <img src={BgImage} alt="img"  /> */}
+
+        <div
+          style={{
+            backgroundImage: `url(${BgImage})`,
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "contain",
+          }}
+          className="bg-image"
+        >
+          <span className="icon1">
+            <a href="https://google.com/" target="_blank" rel="noreferrer">
+              <PulsAnimation>
+                <img src={Icon1} alt="Icon1" className="img-icon1" />
+              </PulsAnimation>
+            </a>
+          </span>
+          <span className="icon2">
+            <a href="https://google.com/" target="_blank" rel="noreferrer">
+              <PulsAnimation>
+                <img src={Icon2} alt="img" className="img-icon2" />
+              </PulsAnimation>
+            </a>
+          </span>
+          <span className="icon3">
+            <a href="https://google.com/" target="_blank" rel="noreferrer">
+              <PulsAnimation>
+                <img src={Icon3} alt="img" className="img-icon3" />
+              </PulsAnimation>
+            </a>
+          </span>
+        </div>
+      </div>
+
+      {/* <img src={BgImage} alt="img" className="bg-image" />
 
       <span className="icon1">
         <a href="https://google.com/" target="_blank" rel="noreferrer">
@@ -30,7 +66,7 @@ export const Home = () => {
             <img src={Icon3} alt="img" className="img-icon3" />
           </PulsAnimation>
         </a>
-      </span>
+      </span> */}
     </div>
   );
 };
