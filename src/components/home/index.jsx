@@ -16,7 +16,7 @@ export const Home = () => {
             backgroundImage: `url(${BgImage})`,
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
-            backgroundSize: "contain",
+            // backgroundSize: "contain",
           }}
           className="bg-image"
         >

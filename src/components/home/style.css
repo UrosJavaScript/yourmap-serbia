@@ -30,7 +30,7 @@
   width: 100%;
   /* min-height: 56vh;
    */
-  height: 500px;
+  height: 100vh;
   position: relative;
 }
 
@@ -53,7 +53,7 @@
 .icon2 {
   position: absolute;
   top: 50%;
-  left: 27%;
+  left: 50%;
   transform: translate(50%, -50%);
 }
 .icon3 {
