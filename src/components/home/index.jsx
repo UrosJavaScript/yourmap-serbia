@@ -3,70 +3,102 @@ import BgImage from "../../assets/bg-map.jpg";
 import Icon1 from "../../assets/HIBI.png";
 import Icon2 from "../../assets/NACIONALNI PARK.png";
 import Icon3 from "../../assets/SALAS.png";
-import { PulsAnimation } from "../animations/puls";
+// import { PulsAnimation } from "../animations/puls";
 
 export const Home = () => {
   return (
     <div className="container">
-      <div className="wrapper">
-        {/* <img src={BgImage} alt="img"  /> */}
-
-        <div
-          style={{
-            backgroundImage: `url(${BgImage})`,
-            backgroundPosition: "center",
-            backgroundRepeat: "no-repeat",
-            backgroundSize: "contain",
-          }}
-          className="bg-image"
+      <div
+        className="bg-image"
+        style={{
+          backgroundImage: `url(${BgImage})`,
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+        }}
+      >
+        <a
+          href="https://google.com/"
+          target="_blank"
+          rel="noreferrer"
+          className="icon icon1"
         >
-          <span className="icon1">
-            <a href="https://google.com/" target="_blank" rel="noreferrer">
-              <PulsAnimation>
-                <img src={Icon1} alt="Icon1" className="img-icon1" />
-              </PulsAnimation>
-            </a>
-          </span>
-          <span className="icon2">
-            <a href="https://google.com/" target="_blank" rel="noreferrer">
-              <PulsAnimation>
-                <img src={Icon2} alt="img" className="img-icon2" />
-              </PulsAnimation>
-            </a>
-          </span>
-          <span className="icon3">
-            <a href="https://google.com/" target="_blank" rel="noreferrer">
-              <PulsAnimation>
-                <img src={Icon3} alt="img" className="img-icon3" />
-              </PulsAnimation>
-            </a>
-          </span>
-        </div>
+          {/* <PulsAnimation> */}
+          <img src={Icon1} alt="Icon1" className="img-icon" />
+          {/* </PulsAnimation> */}
+        </a>
+        <a
+          href="https://google.com/"
+          target="_blank"
+          rel="noreferrer"
+          className="icon icon2"
+        >
+          {/* <PulsAnimation> */}
+          <img src={Icon2} alt="Icon2" className="img-icon" />
+          {/* </PulsAnimation> */}
+        </a>
+        <a
+          href="https://google.com/"
+          target="_blank"
+          rel="noreferrer"
+          className="icon icon3"
+        >
+          {/* <PulsAnimation> */}
+          <img src={Icon3} alt="Icon3" className="img-icon" />
+          {/* </PulsAnimation> */}
+        </a>
       </div>
 
-      {/* <img src={BgImage} alt="img" className="bg-image" />
-
-      <span className="icon1">
-        <a href="https://google.com/" target="_blank" rel="noreferrer">
-          <PulsAnimation>
-            <img src={Icon1} alt="Icon1" className="img-icon1" />
-          </PulsAnimation>
-        </a>
-      </span>
-      <span className="icon2">
-        <a href="https://google.com/" target="_blank" rel="noreferrer">
-          <PulsAnimation>
-            <img src={Icon2} alt="img" className="img-icon2" />
-          </PulsAnimation>
-        </a>
-      </span>
-      <span className="icon3">
-        <a href="https://google.com/" target="_blank" rel="noreferrer">
-          <PulsAnimation>
-            <img src={Icon3} alt="img" className="img-icon3" />
-          </PulsAnimation>
-        </a>
-      </span> */}
+      <div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+          aliquid repellat consequuntur eos alias tempore at, doloribus corporis
+          illo nostrum deleniti, iusto soluta fugiat nemo quae aut in labore
+          maiores?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+          aliquid repellat consequuntur eos alias tempore at, doloribus corporis
+          illo nostrum deleniti, iusto soluta fugiat nemo quae aut in labore
+          maiores?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+          aliquid repellat consequuntur eos alias tempore at, doloribus corporis
+          illo nostrum deleniti, iusto soluta fugiat nemo quae aut in labore
+          maiores?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+          aliquid repellat consequuntur eos alias tempore at, doloribus corporis
+          illo nostrum deleniti, iusto soluta fugiat nemo quae aut in labore
+          maiores?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+          aliquid repellat consequuntur eos alias tempore at, doloribus corporis
+          illo nostrum deleniti, iusto soluta fugiat nemo quae aut in labore
+          maiores?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+          aliquid repellat consequuntur eos alias tempore at, doloribus corporis
+          illo nostrum deleniti, iusto soluta fugiat nemo quae aut in labore
+          maiores?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+          aliquid repellat consequuntur eos alias tempore at, doloribus corporis
+          illo nostrum deleniti, iusto soluta fugiat nemo quae aut in labore
+          maiores?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+          aliquid repellat consequuntur eos alias tempore at, doloribus corporis
+          illo nostrum deleniti, iusto soluta fugiat nemo quae aut in labore
+          maiores?
+        </p>
+      </div>
     </div>
   );
 };
