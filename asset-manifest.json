@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/yourmap-serbia/static/css/main.919e8e5e.css",
-    "main.js": "/yourmap-serbia/static/js/main.7ae091df.js",
+    "main.css": "/yourmap-serbia/static/css/main.5e17808a.css",
+    "main.js": "/yourmap-serbia/static/js/main.13bfb40c.js",
+    "static/media/bg-map.jpg": "/yourmap-serbia/static/media/bg-map.2651a141294136712bae.jpg",
     "static/media/logo.png": "/yourmap-serbia/static/media/logo.d02fefdafadc0f9a3b99.png",
     "static/media/SALAS.png": "/yourmap-serbia/static/media/SALAS.46a3b28a2f96f2118166.png",
     "index.html": "/yourmap-serbia/index.html",
-    "main.919e8e5e.css.map": "/yourmap-serbia/static/css/main.919e8e5e.css.map",
-    "main.7ae091df.js.map": "/yourmap-serbia/static/js/main.7ae091df.js.map"
+    "main.5e17808a.css.map": "/yourmap-serbia/static/css/main.5e17808a.css.map",
+    "main.13bfb40c.js.map": "/yourmap-serbia/static/js/main.13bfb40c.js.map"
   },
   "entrypoints": [
-    "static/css/main.919e8e5e.css",
-    "static/js/main.7ae091df.js"
+    "static/css/main.5e17808a.css",
+    "static/js/main.13bfb40c.js"
   ]
 }
