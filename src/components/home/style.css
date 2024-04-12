@@ -12,16 +12,20 @@
 
 .bg-image {
   width: 100%;
-  height: 785px;
+  min-height: 852px;
   position: relative;
 
-  @media (max-width: 1352px) {
+  @media (max-width: 1199.98px) {
+    min-height: 594px;
+  }
+
+  /* @media (max-width: 1352px) {
     height: 700px;
   }
 
   @media (min-width: 992px) and (max-width: 1199.98px) {
     height: 687px;
-  }
+  } */
 
   /* @media (max-width: 767.98px) {
     height: 500px;
@@ -30,25 +34,71 @@
 
 .icon {
   position: absolute;
-  /* top: 50%;
-  transform: translateY(-50%); */
-}
-
-.icon1 {
-  left: 50%;
-  top: 20%;
-}
-
-.icon2 {
-  left: 27%;
-  top: 40%;
-}
-
-.icon3 {
-  right: 44%;
-  bottom: 10%;
 }
 
 .img-icon {
   width: 40px;
+}
+
+.icon1 {
+  left: 72%;
+  bottom: 26%;
+}
+
+.icon2 {
+  left: 30%;
+  bottom: 26%;
+}
+
+.icon3 {
+  right: 35%;
+  bottom: 33%;
+}
+
+.icon4 {
+  left: 42%;
+  bottom: 19%;
+}
+
+.icon6 {
+  left: 46%;
+  bottom: 45%;
+}
+.icon7 {
+  left: 31%;
+  bottom: 47%;
+}
+
+.icon8 {
+  left: 20%;
+  bottom: 46%;
+}
+
+.icon9 {
+  left: 32%;
+  bottom: 57%;
+}
+.icon10 {
+  left: 27%;
+  bottom: 53%;
+}
+
+.icon11 {
+  right: 14%;
+  bottom: 53%;
+}
+
+.icon12 {
+  right: 30%;
+  top: 43%;
+}
+
+.icon13 {
+  left: 15%;
+  top: 20%;
+}
+
+.icon14 {
+  right: 34%;
+  bottom: 9%;
 }

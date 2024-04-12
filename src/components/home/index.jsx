@@ -1,9 +1,7 @@
 import "./style.css";
 import BgImage from "../../assets/bg-map.jpg";
-import Icon1 from "../../assets/HIBI.png";
-import Icon2 from "../../assets/NACIONALNI PARK.png";
-import Icon3 from "../../assets/SALAS.png";
-// import { PulsAnimation } from "../animations/puls";
+
+import { LogotipAbsolute } from "../logotipi";
 
 export const Home = () => {
   return (
@@ -17,36 +15,7 @@ export const Home = () => {
           backgroundSize: "cover",
         }}
       >
-        <a
-          href="https://google.com/"
-          target="_blank"
-          rel="noreferrer"
-          className="icon icon1"
-        >
-          {/* <PulsAnimation> */}
-          <img src={Icon1} alt="Icon1" className="img-icon" />
-          {/* </PulsAnimation> */}
-        </a>
-        <a
-          href="https://google.com/"
-          target="_blank"
-          rel="noreferrer"
-          className="icon icon2"
-        >
-          {/* <PulsAnimation> */}
-          <img src={Icon2} alt="Icon2" className="img-icon" />
-          {/* </PulsAnimation> */}
-        </a>
-        <a
-          href="https://google.com/"
-          target="_blank"
-          rel="noreferrer"
-          className="icon icon3"
-        >
-          {/* <PulsAnimation> */}
-          <img src={Icon3} alt="Icon3" className="img-icon" />
-          {/* </PulsAnimation> */}
-        </a>
+        <LogotipAbsolute />
       </div>
 
       <div>
