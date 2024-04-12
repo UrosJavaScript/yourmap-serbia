@@ -1,16 +1,28 @@
 {
   "files": {
-    "main.css": "/yourmap-serbia/static/css/main.5e17808a.css",
-    "main.js": "/yourmap-serbia/static/js/main.13bfb40c.js",
-    "static/media/bg-map.jpg": "/yourmap-serbia/static/media/bg-map.2651a141294136712bae.jpg",
+    "main.css": "/yourmap-serbia/static/css/main.87b9e78c.css",
+    "main.js": "/yourmap-serbia/static/js/main.d8014409.js",
+    "static/media/bg-map.jpg": "/yourmap-serbia/static/media/bg-map.d214e5743ca1f1b5bdd7.jpg",
     "static/media/logo.png": "/yourmap-serbia/static/media/logo.d02fefdafadc0f9a3b99.png",
-    "static/media/SALAS.png": "/yourmap-serbia/static/media/SALAS.46a3b28a2f96f2118166.png",
+    "static/media/Group 33.png": "/yourmap-serbia/static/media/Group 33.51a02d0ca883b0d92ec1.png",
+    "static/media/JAT APARTMANI 2.png": "/yourmap-serbia/static/media/JAT APARTMANI 2.3d89f2bf00005c346a90.png",
+    "static/media/KLJUNAC.png": "/yourmap-serbia/static/media/KLJUNAC.72773077a1949ff1a98f.png",
+    "static/media/HOP NA KOP.png": "/yourmap-serbia/static/media/HOP NA KOP.fb5b32f70996a63c16d3.png",
+    "static/media/KOLIBA.png": "/yourmap-serbia/static/media/KOLIBA.4506659e7be66aa9cb34.png",
+    "static/media/HIBI copy 2.png": "/yourmap-serbia/static/media/HIBI copy 2.ab37d71bb2b02aa642c5.png",
+    "static/media/GREY copy.png": "/yourmap-serbia/static/media/GREY copy.61c9e411c2660b56f1f2.png",
+    "static/media/EXPRESS.png": "/yourmap-serbia/static/media/EXPRESS.4cdac4a00255da615b77.png",
+    "static/media/BENU.png": "/yourmap-serbia/static/media/BENU.94746bec1607b8c714d1.png",
+    "static/media/INFO KOP.png": "/yourmap-serbia/static/media/INFO KOP.4b983d899393477fd04c.png",
+    "static/media/IDEA copy 2.png": "/yourmap-serbia/static/media/IDEA copy 2.025c5621efcb739ac76f.png",
+    "static/media/Grand 6.png": "/yourmap-serbia/static/media/Grand 6.f82699b684966867b253.png",
+    "static/media/CLUB A.png": "/yourmap-serbia/static/media/CLUB A.1777612ac097b38c539f.png",
     "index.html": "/yourmap-serbia/index.html",
-    "main.5e17808a.css.map": "/yourmap-serbia/static/css/main.5e17808a.css.map",
-    "main.13bfb40c.js.map": "/yourmap-serbia/static/js/main.13bfb40c.js.map"
+    "main.87b9e78c.css.map": "/yourmap-serbia/static/css/main.87b9e78c.css.map",
+    "main.d8014409.js.map": "/yourmap-serbia/static/js/main.d8014409.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e17808a.css",
-    "static/js/main.13bfb40c.js"
+    "static/css/main.87b9e78c.css",
+    "static/js/main.d8014409.js"
   ]
 }
